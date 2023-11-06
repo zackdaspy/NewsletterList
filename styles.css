@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body
+{
+    margin:0px; 
+    background-color: wheat;
+    color: black; 
+    font-family: sans-serif;
+}
+
+.container2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    height: 33vh;
+    width: 30vw;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cont-email{
+    margin: 15px;
+}
+
+.email{
+    display: block;
+    width: 96%;
+    font-size:18px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.cont-pass{
+    margin: 15px;
+}
+.password{
+    display: block;
+    width: 96%;
+    font-size:18px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.forgot{
+    margin: 0;
+    color: red;
+}
+
+
+.extra{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    display: block;
+    margin: 15px;
+    width: 93%;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    margin: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+th, td, a {
+    border: 1px solid #ccc;
+}
+
+th {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+.entries{
+    display: block;
+    width: 96%;
+    font-size:18px;
+    padding: 5px;
+    margin-top: 5px;
+}

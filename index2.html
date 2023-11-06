@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Subscribers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Newsletter Subscribers List</h1>
+    <div class="entries">
+        <p id="entryCount">Number of Entries: <span id="count">0</span></p>
+        <script>
+            // JavaScript function to count and display the number of entries
+            window.onload = function() {
+                const table = document.querySelector("table");
+                const countElement = document.getElementById("count");
+                countElement.textContent = table.querySelectorAll("tbody tr").length;
+            };
+        </script>
+    </div>    
+    <div class="container2" id="main">
+        <table border="1">
+            <thead>
+                <th style="width: 5%;">Serial Number</th>
+                <th style="width: 15%;">Name</th>
+                <th style="width: 15%;">Email</th>
+                <th style="width: 10%;">Mobile</th>
+                <th style="width: 10%;">State</th>
+                <th style="width: 10%;">Date</th>
+                <th style="width: 15%;">Download Data</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>johndoe@example.com</td>
+                    <td>123-456-7890</td>
+                    <td>New York</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>987-654-3210</td>
+                    <td>California</td>
+                    <td>2023-11-06 09:00:00</td>
+                    <td><a href="download_link">Download Data</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <a href="index.html">
+        HOME
+    </a>
+</body>
+</html>
